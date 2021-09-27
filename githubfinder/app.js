@@ -19,6 +19,7 @@ searchUser.addEventListener('keyup', (e) => {
       } else {
         //Show profile
         ui.showProfile(data.profile) //this takes in a user which we get using 'data.profile'
+        ui.showRepos(data.repos) //this takes in a user which we get using 'data.profile'
       }
     })
   } else {
