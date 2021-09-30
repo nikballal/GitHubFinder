@@ -27,14 +27,13 @@ class UI {
       </div>
       </div> 
       <h3 class="page-heading mb-3">Latest Repos</h3>  
-      <div id="repose"></div>
+      <div id="repos"></div>
     `
   }
 
   //show user repos
   showRepos(repos) {
     let output = ''
-
     repos.forEach(function (repo) {
       output += `
       <div class="card card-body mb-2">
